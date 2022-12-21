@@ -1,0 +1,26 @@
+.cardanimation {
+  -webkit-animation: fadein 0.5s linear forwards;
+  animation: fadein 0.5s linear forwards;
+}
+
+@-webkit-keyframes fadein {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

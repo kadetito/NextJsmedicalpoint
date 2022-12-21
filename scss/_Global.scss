@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(49, 61, 87);
+}
+
+.mp__whitelinks {
+  color: #ffffff;
+  text-decoration: none;
+}
+.mp__whitelinks:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mp__whitelinks_under {
+  color: #ffffff;
+  text-decoration: none;
+}
+.mp__whitelinks_under:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.mp__footer {
+  background-color: white;
+}
+
+.mp__whitetext {
+  color: #ffffff;
+}
+
+.breadcrumb {
+  --bs-breadcrumb-divider-color: #ffffff;
+}
+.mp__breadcrumb li {
+  color: #ffffff;
+}
+.mp__breadcrumb li.active {
+  color: #ffffff;
+}
+.mp__breadcrumb a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.mp__breadcrumb a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.MuiTabs-root {
+  .Mui-selected {
+    color: #ffffff !important;
+  }
+  .MuiTabs-indicator {
+    background-color: #ffffff;
+  }
+
+  .MuiButtonBase-root {
+    color: #ffffff;
+  }
+}
+
+.mp__floatingbutton {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+
+  button {
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+  }
+}

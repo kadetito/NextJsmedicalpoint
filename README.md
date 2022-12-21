@@ -1,29 +1,40 @@
-# Next.js + Jest
-
-This example shows how to configure Jest to work with Next.js.
-
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
+# Next.js Telo Shop
+Para correr localmente, se necesita la base de datos.
+```
+docker-compose up -d
 ```
 
-```bash
-yarn create next-app --example with-jest with-jest-app
+* El -d, significa __detached__
+
+
+
+## Configurar las variables de entorno
+Renombrar el archivo __.env.template__ a __.env__
+* MongoDB URL Local:
+```
+MONGO_URL=mongodb://localhost:27017/teslodb
 ```
 
-```bash
-pnpm create next-app --example with-jest with-jest-app
+* Switch de la versión adecuada de node para el proyecto, existe un archivo .nvmrc
+```
+nvm use
+nvm install
+nvm exec
+nvm run
+nvm which
+
 ```
 
-## Run Jest Tests
+* Reconstruir los módulos de node y levantar Next
+```
+yarn install
+yarn dev
+```
 
-```bash
-npm test
+
+## Llenar la base de datos con información de pruebas
+
+Llamara:
+```
+http://localhost:3000/api/seed
 ```
